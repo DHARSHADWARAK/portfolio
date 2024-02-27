@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="desktop_nav">
+        <div class="logo"> Ravuri Dharsha Dwarak</div>
+        <div>
+            <ul class="nav_links">
+                <li ><a href="#about" class="nav_h" id="nav_h_1">About</a></li>
+                <li ><a href="#skills" class="nav_h" id="nav_h_2">Skills</a></li>
+                <li ><a href="#projects" class="nav_h" id="nav_h_3">Projects</a></li>
+                <li ><a href="#contact" class="nav_h" id="nav_h_4">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger_nav">
+        <div class="logo">Ravuri Dharsha Dwarak</div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon" onclick="toggleMenu()">
+                <span class="hamburger_span"></span>
+                <span class="hamburger_span"></span>
+                <span class="hamburger_span"></span>
+            </div>
+            <div class="menu_links">
+                <div><a href="#about" onclick="toggleMenu() " class="menu_links_a">About</a></div>
+                <div><a href="#skills" onclick="toggleMenu()"class="menu_links_a">Experience</a></div>
+                <div><a href="#projects" onclick="toggleMenu()"class="menu_links_a">Projects</a></div>
+                <div><a href="#contact" onclick="toggleMenu()"class="menu_links_a">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I am</p>
+            <h1 class="title">Ravuri Dharsha Dwarak</h1>
+            <p class="section_text_p2">Web Developer</p>
+            <div>
+
+                <div id="social">
+                    <a href="https://www.linkedin.com/in/dharsha-dwarak-ravuri-a23127275/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/DHARSHADWARAK">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dharsha_dwarak/"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <img src="172566_down_arrow_icon.png" alt="" class="icon_arrow" onclick="location.href='./#about'" id="arrow_profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p3">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <div class="about_details_container">
+                <div class="about_containers">
+                    <div class="details_container">
+                        <i class="fa-solid fa-clock-rotate-left" id="exp_icon"></i>
+                        <h3>Experience</h3>
+                        <p class="details_container_p1">1 year <br>Frontend Development</p>
+                    </div>
+                    <div class="details_container" id="details_container_2">
+                        <i class="fa-solid fa-user-graduate" id="ed_icon"></i>
+                        <h3>Education</h3>
+                        <p class="details_container_p2">B.Tech <br>Computer Science and Engineering </p>
+                    </div>
+                </div>
+                <div>
+                    <p class="details_container_p3">Passionate and dedicated <span id="web_span">WEB DEVELOPER</span> with a flair for creativity and
+                        innovation.I thrive on turning ideas into impactful solutions. From concept to execution, I
+                        bring a unique blend of technical expertise and artistic vision to every project. Let's
+                        collaborate and bring your vision to life.</p>
+                </div>
+            </div>
+            <div class="section_pic_container">
+                <img src="b&w img-modified.png" alt="dharsha dwarak">
+            </div>
+        </div>
+        <img src="172566_down_arrow_icon.png" alt="" class="icon_arrow" onclick="location.href='./#skills'" id="about_arrow">
+    </section>
+
+    <section id="skills">
+        <p class="section_text_p1" id="section_text_p1_id">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill_detail_container">
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>HTML</p>
+                        <img src="html5-balck-icon.png" alt="" class="code_icons">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="html_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="html_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>CSS</p>
+                        <img src="css_icon.png" alt="" class="code_icons">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="css_number"class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="css_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>Java Script</p>
+      <img src="javascript.png" alt="" class="code_icons">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="js_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="js_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>C</p>
+     <img src="c.png" alt="" class="code_icons">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="c_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="c_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>C++</p>
+     <img src="c-plus-plus-14367.png" alt="" class="code_icons" id="cpp">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="cpp_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="cpp_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>Java</p>
+                        <img src="pngwing.com.png" alt="" class="code_icons" id="java">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="java_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="java_c"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front">
+                        <p>Python</p>
+       <img src="python.com.png" alt="" class="code_icons">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="py_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="py_c"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip_box">
+                <div class="flip_box_inner">
+                    <div class="flip_box_front" id="flip_box_front_r">
+                        <p>R</p>
+      <img src="R.com-modified.png" alt="" class="code_icons" id="R">
+                    </div>
+
+                    <div class="flip_box_back">
+                        <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div id="r_number" class="number">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#c7c7c7" />
+                                        <stop offset="100%" stop-color="#2b2b2b" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="67" cy="65" r="55" stroke-linecap="round" id="r_c"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="172566_down_arrow_icon.png" alt="" class="icon_arrow" onclick="location.href='./#projects'" id="skills_arrow">
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1" id="section_text_p1_id_2">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div id="projects_cont">
+            <a href="https://rocpasc.netlify.app/" target="_blank">
+            <div id="proj_1" >
+                <iframe src="https://rocpasc.netlify.app/" frameborder="0" id="rocpasc"></iframe>
+                <p class="project_p" id="project_p_id_1">Rock Paper <br>and Scissors</p>
+            </div>
+        </a>
+        <a href="https://dharshadwarak.github.io/Cuurency-Convertor/" target="_blank">
+            <div id="proj_2">
+                <p class="project_p" id="project_p_id_2"style="flex-grow: 2;">Currency <br> Convertor</p>
+                <iframe src="https://dharshadwarak.github.io/Cuurency-Convertor/" frameborder="0" id="currency_convertor"></iframe>
+            </div>
+        </a>
+        </div>
+        <img src="172566_down_arrow_icon.png" alt="" class="icon_arrow" onclick="location.href='./#contact'" id="projects_arrow">
+    
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1" id="section_text_p1_3">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+                <input type="hidden" name="access_key" value="2534c454-3b7f-4018-8b4e-9e63d1fd6509">
+                <input type="text" name="name" placeholder="your_name" class="contact_inputs" required>
+                <input type="text" name="email" placeholder="your_email" class="contact_inputs" required>
+                <textarea name="message" placeholder="your_message" class="contact_inputs_msg" required></textarea>
+                <button type="submit" class="submit">Submit </button>
+            </form>
+    </section>
+
+    <section id="bulb">
+    <svg class="toggle-scene" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMinYMin" viewBox="0 0 197.451 481.081">
+        <defs class="defsy">
+          <marker id="e" orient="auto" overflow="visible" refx="0" refy="0">
+            <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </marker>
+          <marker id="d" orient="auto" overflow="visible" refx="0" refy="0">
+            <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </marker>
+          <marker id="c" orient="auto" overflow="visible" refx="0" refy="0">
+            <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </marker>
+          <marker id="b" orient="auto" overflow="visible" refx="0" refy="0">
+            <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </marker>
+          <marker id="a" orient="auto" overflow="visible" refx="0" refy="0">
+            <path class="toggle-scene__cord-end" fill-rule="evenodd" stroke-width=".2666" d="M.98 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </marker>
+          <clippath id="g" clippathunits="userSpaceOnUse">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path>
+          </clippath>
+          <clippath id="f" clippathunits="userSpaceOnUse">
+            <path d="M-868.418 945.051c-4.188 73.011 78.255 53.244 150.216 52.941 82.387-.346 98.921-19.444 98.921-47.058 0-27.615-4.788-42.55-73.823-42.55-69.036 0-171.436-30.937-175.314 36.667z"></path>
+          </clippath>
+        </defs>
+        <g class="toggle-scene__cords">
+          <path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.56v150.493" transform="translate(-24.503 256.106)"></path>
+          <path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.59s28 8.131 28 19.506-18.667 13.005-28 19.507c-9.333 6.502-28 8.131-28 19.506s28 19.507 28 19.507" transform="translate(-24.503 256.106)"></path>
+          <path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.575s-20 16.871-20 28.468c0 11.597 13.333 18.978 20 28.468 6.667 9.489 20 16.87 20 28.467 0 11.597-20 28.468-20 28.468" transform="translate(-24.503 256.106)"></path>
+          <path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.569s16 20.623 16 32.782c0 12.16-10.667 21.855-16 32.782-5.333 10.928-16 20.623-16 32.782 0 12.16 16 32.782 16 32.782" transform="translate(-24.503 256.106)"></path>
+          <path class="toggle-scene__cord" marker-end="url(#a)" fill="none" stroke-linecap="square" stroke-width="6" d="M123.228-28.563s-10 24.647-10 37.623c0 12.977 6.667 25.082 10 37.623 3.333 12.541 10 24.647 10 37.623 0 12.977-10 37.623-10 37.623" transform="translate(-24.503 256.106)"></path>
+          <g class="line toggle-scene__dummy-cord">
+            <line marker-end="url(#a)" x1="98.7255" x2="98.7255" y1="240.5405" y2="380.5405"></line>
+          </g>
+          <circle class="toggle-scene__hit-spot" cx="98.7255" cy="380.5405" r="60" fill="transparent"></circle>
+        </g>
+        <g class="toggle-scene__bulb bulb" transform="translate(844.069 -645.213)">
+          <path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path>
+          <path class="bulb__cap-shine" d="M-778.379 802.873h25.512v118.409h-25.512z" clip-path="url(#g)" transform="matrix(.52452 0 0 .90177 -368.282 82.976)"></path>
+          <path class="bulb__cap" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v0s-8.439 10.115-28.817 10.115c-21.673 0-29.59-10.115-29.59-10.115z"></path>
+          <path class="bulb__cap-outline" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.677" d="M-774.546 827.629s12.917-13.473 29.203-13.412c16.53.062 29.203 13.412 29.203 13.412v53.6s-8.825 16-29.203 16c-21.674 0-29.203-16-29.203-16z"></path>
+          <g class="bulb__filament" fill="none" stroke-linecap="round" stroke-width="5">
+            <path d="M-752.914 823.875l-8.858-33.06"></path>
+            <path d="M-737.772 823.875l8.858-33.06"></path>
+          </g>
+          <path class="bulb__bulb" stroke-linecap="round" stroke-width="5" d="M-783.192 803.855c5.251 8.815 5.295 21.32 13.272 27.774 12.299 8.045 36.46 8.115 49.127 0 7.976-6.454 8.022-18.96 13.273-27.774 3.992-6.7 14.408-19.811 14.408-19.811 8.276-11.539 12.769-24.594 12.769-38.699 0-35.898-29.102-65-65-65-35.899 0-65 29.102-65 65 0 13.667 4.217 26.348 12.405 38.2 0 0 10.754 13.61 14.746 20.31z"></path>
+          <circle class="bulb__flash" cx="-745.343" cy="743.939" r="83.725" fill="none" stroke-dasharray="10,30" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"></circle>
+          <path class="bulb__shine" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M-789.19 757.501a45.897 45.897 0 013.915-36.189 45.897 45.897 0 0129.031-21.957"></path>
+        </g>
+      </svg>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="footer-logo" src="images/brand-logo.png" alt="">
+            <h3>Contact</h3>
+            <br>
+            <p ><strong>Address :</strong> VIT Vellore, Men's Hoste, M-Block </p>
+            <p><strong>Mobile  :</strong> +91 6300487358 </p>
+            <p><strong>Time    :</strong> Mon - Fri (10am - 6pm) </p>
+            <div class="follow">
+                <h2>Follow us</h2>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-snapchat"></i>
+                     
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <h3>About</h3>
+                <a href="contact.html">About us</a>
+                <a href="contact.html">Privacy Policy</a>
+                <a href="contact.html">Terms & Conditions</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h3>My Account</h3>
+                <br>
+                <a href="contact.html">Sign in</a>
+                <a href="contact.html">Help</a>
+            </div>
+
+    
+        
+        </footer>
+
+      <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://assets.codepen.io/16327/MorphSVGPlugin3.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script><script  src="./script.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>

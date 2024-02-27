@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+    #desktop_nav{
+        display: none;
+    }
+    #hamburger_nav{
+        display: flex;
+    }
+    .section_pic_container{
+        display: none;
+    }
+}
